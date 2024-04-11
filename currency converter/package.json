@@ -1,0 +1,24 @@
+{
+  "name": "@kudev/currency-converter",
+  "version": "1.0.0",
+  "description": "cli currency convertor using inquirer typescript and node.js",
+  "main": "index.js",
+  "type": "module",  
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "bin": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KUD",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
